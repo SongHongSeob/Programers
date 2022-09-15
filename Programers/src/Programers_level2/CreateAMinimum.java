@@ -22,6 +22,8 @@ public class CreateAMinimum {
         	answer+=c;
         }
         
+        System.out.println("answer : "+answer);
+        
         
         return answer;
     }
@@ -35,4 +37,13 @@ public class CreateAMinimum {
 		     array[(array.length - 1) - i] = temp;
 		 }
 	 }
+	
+	public static void main(String[] args) {
+		int[] a = {1,4,2};
+		int[] b = {5,4,4};
+		
+		CreateAMinimum s = new CreateAMinimum();
+		
+		s.solution(a,b);
+	}
 }
