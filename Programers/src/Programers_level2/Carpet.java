@@ -1,5 +1,7 @@
 package Programers_level2;
 
+// 카펫
+
 public class Carpet {
 	public int[] solution(int brown, int yellow) {
         int[] answer = new int[2];

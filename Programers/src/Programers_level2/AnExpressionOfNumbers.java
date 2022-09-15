@@ -1,5 +1,7 @@
 package Programers_level2;
 
+// 숫자의 표현
+
 public class AnExpressionOfNumbers {
 	public int solution(int n) {
         int answer = 0;
@@ -31,6 +33,8 @@ public class AnExpressionOfNumbers {
 	        	if(t>n)
 	        		break;
 	        }
+	        
+	        System.out.println("answer ; " +answer);
 	        
 	        return answer;
    }

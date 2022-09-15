@@ -1,5 +1,7 @@
 package Programers_level2;
 
+// 피보나치 수열
+
 public class FibonacciNumber {
 	public int solution(int n) {
 		int answer = 0;
@@ -14,6 +16,8 @@ public class FibonacciNumber {
 		
 		
 		answer=fibo[n];
+		
+		System.out.println("answer : " +answer);
 		
 		return answer;
 	}

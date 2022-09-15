@@ -1,5 +1,7 @@
 package Programers_level2;
 
+// 땅따먹기
+
 import java.util.*;
 
 public class EatTheGround {

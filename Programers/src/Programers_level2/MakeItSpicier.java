@@ -1,5 +1,7 @@
 package Programers_level2;
 
+// 더맵게
+
 import java.util.*;
 //우선순위 큐의 사용법 PriorityQueue<Integer> overScoville = new PriorityQueue<>();
 	
@@ -45,6 +47,8 @@ public class MakeItSpicier {
 	    		
 	    		answer++;						// 반복횟수 +1
 	    	}
+	    	
+	    	System.out.println("answer : " + answer);
 
 	        return answer;
     }

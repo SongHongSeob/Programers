@@ -1,5 +1,7 @@
 package Programers_level2;
 
+// 올바른 괄호
+
 public class CorrectParentheses {
 	boolean solution(String s) {
         boolean answer = false;

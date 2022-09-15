@@ -1,5 +1,7 @@
 package Programers_level2;
 
+//행렬의 곱셈
+
 public class TheMultiplicationOfAMatrix {
 	public int[][] solution(int[][] arr1, int[][] arr2) {
         int[][] answer = new int[arr1.length][arr2[0].length];
@@ -9,8 +11,11 @@ public class TheMultiplicationOfAMatrix {
                 for(int t=0;t<arr1[0].length;t++){
                     answer[i][j] += (arr1[i][t] * arr2[t][j]);
                 }
+                
+                System.out.println("answer["+i+"]["+j+"] : "+ answer[i][j]);
             }
         }
+        
         return answer;
     }
 	
